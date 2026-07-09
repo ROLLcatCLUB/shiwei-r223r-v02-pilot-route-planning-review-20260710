@@ -1,0 +1,39 @@
+{
+  "stage_id": "1013R_R223R_V0_2_CANDIDATE_PILOT_ROUTE_PLANNING",
+  "status": "pilot_route_planning_only",
+  "decision": "PASS_CONTINUE_TO_R223S_OPT_IN_SANDBOX_ROUTE_SPEC",
+  "source_stages": [
+    "1013R_R223P_5_V0_2_LOCK_CANDIDATE",
+    "1013R_R223Q_TRUE_GENERATION_REGRESSION_GATE"
+  ],
+  "files": [
+    "R223R_v0_2_candidate_pilot_route_plan.md",
+    "R223R_pilot_scope_and_blocked_scope.md",
+    "R223R_v0_1_vs_v0_2_comparison_plan.md",
+    "R223R_teacher_default_view_acceptance_criteria.md",
+    "R223R_review_ledger_acceptance_criteria.md",
+    "R223R_component_trigger_safety_gate.md",
+    "R223R_unit_intensity_router_acceptance_gate.md",
+    "R223R_rollback_and_hold_conditions.md",
+    "R223R_decision_report.md",
+    "README_FOR_GPT_REVIEW.md",
+    "validate_1013R_R223R_v0_2_candidate_pilot_route_planning.py",
+    "validate_1013R_R223R_v0_2_candidate_pilot_route_planning_result.json"
+  ],
+  "boundaries": {
+    "schema_v0_2_published": false,
+    "formal_ui": false,
+    "r97b_modified": false,
+    "formal_route_added": false,
+    "frontend_backend_modified": false,
+    "runtime_connected": false,
+    "provider_model_connected": false,
+    "prompt_modified": false,
+    "database_written": false,
+    "lesson_body_written": false,
+    "r222d_component_library_modified": false,
+    "formal_apply": false
+  },
+  "next_allowed": "1013R_R223S_OPT_IN_SANDBOX_ROUTE_SPEC"
+}
+
